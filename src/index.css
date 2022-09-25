@@ -1,13 +1,51 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inconsolata', monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-body{
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-rep{
+  background-color: rgba(51, 51, 51, 0.349);
+  padding: 1.3rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.buttons button{
+  background-color: rgb(245, 168, 3);
+  padding: 0.5rem;
+  
+}
+
+.light-indicator{
+  width: .8rem;
+  height: .8rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 5px;
+
+}
+
+.status{
+  margin-bottom: 1rem;
+}
+
+.cont{
+  display: flex;
+  align-items: center;
+}
+
+.serv-status{
+  display: flex;
 }
